@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    max-width: 100%;
+    padding: 15px;
+}
+.header__container,
+.row__header {
+    border: 1px solid;
+    color: white;
+    
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+    color: white;
+    
+}
+#logo img{
+    width: 50px;
+    
+}
+
+input {
+    width: 60%;
+}
+
+button{
+    padding: 8px;
+    border-radius: 8px;
+    background-color: hwb(256 27% 20%);
+    color: white;
+}
+
+nav{
+    display: flex;
+    border: 0px solid;
+    background-color: rgb(46, 172, 231);
+}
+.nav__tabela{
+    width: 100%;
+    border: 0px solid;
+    background-color: rgb(46, 172, 231);
+    
+}
+.nav__corpo{
+    border: 0px solid;
+    background-color: rgb(46, 172, 231);
+}
+.nav__th{
+    border: 0px solid;
+    color: rgb(46, 172, 231);
+}
+.nav__td{
+    border: 0px solid;
+    background-color: rgb(46, 172, 231);
+}
+#livro{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;  
+}
+h1 , h2 {
+    text-align: center;
+    color: rgb(46, 172, 231);
+}
+p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+}
+.sidebar{
+    margin: 10px 10% 10px 10%;
+    border: 0px solid;
+    color: blueviolet;
+}
+.container__sidebar{
+    
+    border: 0px solid;
+    color: aqua;
+}
+.content__sidebar{
+    
+    border: 0px solid;
+    color: rgb(56, 195, 200);
+}
+footer{
+    border: 0px solid;
+    color: brown;
+}
+.row__footer{
+    border: 0px solid;
+    color: black;
+}
+.footer__content{
+    padding: 10px;
+    border: 0px solid;
+    color: rgb(46, 172, 231);
+}
+ 
+@media screen and (max-width:600px) {
+   .sidebar {
+    display: none;
+   }
+   #livro{
+    display: flex;
+    justify-content: center;
+   }
+}
