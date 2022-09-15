@@ -116,6 +116,18 @@ footer{
     color: rgb(46, 172, 231);
 }
  
+.texto{
+    border: 0px solid;
+    color: black;
+}
+.container__texto{
+    border: 0px solid ;
+    color: aquamarine;
+}
+.content__texto{
+    border: 0px solid;
+    color: rgb(43, 37, 227);
+}
 @media screen and (max-width:600px) {
    .sidebar {
     display: none;
