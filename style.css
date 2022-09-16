@@ -79,6 +79,13 @@ p{
     font-weight: 400;
     padding: 10px;
 }
+.txt{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.titulo{
+    margin-bottom: 10px;
+}
 a{
    
     text-decoration: none;
@@ -117,6 +124,7 @@ footer{
     padding: 10px;
     border: 0px solid;
     color: rgb(46, 172, 231);
+    
 }
  
 .texto{
