@@ -41,25 +41,20 @@ button{
 
 nav{
     display: flex;
-    border: 0px solid;
     background-color: rgb(46, 172, 231);
 }
 .nav__tabela{
     width: 100%;
-    border: 0px solid;
     background-color: rgb(46, 172, 231);
     
 }
 .nav__corpo{
-    border: 0px solid;
     background-color: rgb(46, 172, 231);
 }
 .nav__th{
-    border: 0px solid;
     color: rgb(46, 172, 231);
 }
 .nav__td{
-    border: 0px solid;
     background-color: rgb(46, 172, 231);
 }
 #livro{
@@ -99,36 +94,29 @@ a{
 }
 .sidebar{
     margin: 10px 10% 10px 10%;
-    border: 0px solid;
     color: blueviolet;
 }
 .container__sidebar{
     
-    border: 0px solid;
     color: aqua;
 }
 .content__sidebar{
-    
-    border: 0px solid;
+    margin-left: 30px;
     color: rgb(56, 195, 200);
 }
 footer{
-    border: 0px solid;
     color: brown;
 }
 .row__footer{
-    border: 0px solid;
     color: black;
 }
 .footer__content{
     padding: 10px;
-    border: 0px solid;
     color: rgb(46, 172, 231);
     
 }
  
 .texto{
-    border: 0px solid;
     color: black;
 }
 .container__texto{
@@ -137,7 +125,6 @@ footer{
 }
 .content__texto{
     
-    border: 0px solid;
     color: black;
     padding: 10px;
 }
@@ -148,6 +135,71 @@ ul{
     
 }
 
+.word p{
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-left: 9%;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    word-wrap: break-word;
+    word-break: break-all;
+    line-height: 1.5em;
+}
+
+iframe {
+    margin-left: 450px;
+}
+
+
+@media screen and (max-width:1280px) {
+    iframe {
+        margin-left: 380px;
+        max-width: 100%;
+        max-height: 100%;
+    } 
+    
+    
+}
+
+@media screen and (max-width:1024px) {
+    iframe {
+        margin-left: 280px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media screen and (max-width:912px) {
+    iframe {
+        margin-left: 220px;
+        max-width: 100%;
+        max-height: 100%;
+}
+}
+
+@media screen and (max-width:820px ) {
+    iframe {
+        margin-left: 170px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+}
+
+
+@media  screen and (max-width:768px){    
+    iframe {
+        margin-left: 150px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+}
 
 @media screen and (max-width:600px) {
    .sidebar {
@@ -159,5 +211,10 @@ ul{
    }
    ul{
     justify-content: space-between;
+   }
+   iframe {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 0;
    }
 }
